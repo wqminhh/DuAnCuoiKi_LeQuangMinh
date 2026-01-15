@@ -40,9 +40,9 @@
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dATABASE_PROJECT_DBMSDataSet4 = new PRDBMS.DATABASE_PROJECT_DBMSDataSet4();
+            this.dATABASE_PROJECT_DBMSDataSet4 = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet4();
             this.phieuNhapBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.phieuNhapTableAdapter = new PRDBMS.DATABASE_PROJECT_DBMSDataSet4TableAdapters.PhieuNhapTableAdapter();
+            this.phieuNhapTableAdapter = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet4TableAdapters.PhieuNhapTableAdapter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -229,8 +229,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private DATABASE_PROJECT_DBMSDataSet4 dATABASE_PROJECT_DBMSDataSet4;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet4 dATABASE_PROJECT_DBMSDataSet4;
         private System.Windows.Forms.BindingSource phieuNhapBindingSource;
-        private DATABASE_PROJECT_DBMSDataSet4TableAdapters.PhieuNhapTableAdapter phieuNhapTableAdapter;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet4TableAdapters.PhieuNhapTableAdapter phieuNhapTableAdapter;
     }
 }

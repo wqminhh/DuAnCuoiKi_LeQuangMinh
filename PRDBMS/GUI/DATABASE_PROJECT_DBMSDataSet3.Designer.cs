@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace PRDBMS {
+namespace PRDBMS.GUI {
     
     
     /// <summary>
@@ -757,7 +757,7 @@ namespace PRDBMS {
         }
     }
 }
-namespace PRDBMS.DATABASE_PROJECT_DBMSDataSet3TableAdapters {
+namespace PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet3TableAdapters {
     
     
     /// <summary>
@@ -901,9 +901,9 @@ namespace PRDBMS.DATABASE_PROJECT_DBMSDataSet3TableAdapters {
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[SanPham] ([MaSP], [TenSP], [HangSX], [GiaNhap], [GiaBan], [Tra" +
-                "ngThai]) VALUES (@MaSP, @TenSP, @HangSX, @GiaNhap, @GiaBan, @TrangThai);\r\nSELECT" +
-                " MaSP, TenSP, HangSX, GiaNhap, GiaBan, TrangThai FROM SanPham WHERE (MaSP = @MaS" +
-                "P)";
+                "ngThai]) VALUES (@MaSP, @TenSP, @HangSX, @GiaNhap, @GiaBan, @TrangThai);\nSELECT " +
+                "MaSP, TenSP, HangSX, GiaNhap, GiaBan, TrangThai FROM SanPham WHERE (MaSP = @MaSP" +
+                ")";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MaSP", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MaSP", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TenSP", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TenSP", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));

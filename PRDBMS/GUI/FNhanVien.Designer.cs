@@ -35,7 +35,7 @@
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.cuaHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dATABASE_PROJECT_DBMSDataSet5 = new PRDBMS.DATABASE_PROJECT_DBMSDataSet5();
+            this.dATABASE_PROJECT_DBMSDataSet5 = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet5();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.cuaHangTableAdapter = new PRDBMS.DATABASE_PROJECT_DBMSDataSet5TableAdapters.CuaHangTableAdapter();
+            this.cuaHangTableAdapter = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet5TableAdapters.CuaHangTableAdapter();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cuaHangBindingSource)).BeginInit();
@@ -424,9 +424,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.ComboBox comboBox2;
-        private DATABASE_PROJECT_DBMSDataSet5 dATABASE_PROJECT_DBMSDataSet5;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet5 dATABASE_PROJECT_DBMSDataSet5;
         private System.Windows.Forms.BindingSource cuaHangBindingSource;
-        private DATABASE_PROJECT_DBMSDataSet5TableAdapters.CuaHangTableAdapter cuaHangTableAdapter;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet5TableAdapters.CuaHangTableAdapter cuaHangTableAdapter;
         private System.Windows.Forms.ComboBox comboBox3;
     }
 }

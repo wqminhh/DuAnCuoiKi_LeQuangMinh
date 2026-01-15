@@ -17,7 +17,7 @@ namespace PRDBMS
 {
     public partial class FSanPham : Form
     {
-        private readonly ProductService _productService = new ProductService(AppContext.Data);
+        private readonly ProductService _productService = new ProductService(PRDBMS.BLL.AppContext.Data);
         ConnectDatabase db = new ConnectDatabase();
 
         public FSanPham()

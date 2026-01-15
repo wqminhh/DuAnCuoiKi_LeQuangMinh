@@ -52,135 +52,135 @@
     <Compile Include="DAL\ChiTietHoaDonDAL.cs" />
     <Compile Include="DAL\ConnectDatabase.cs" />
     <Compile Include="DAL\HoaDonDAL.cs" />
-    <Compile Include="DATABASE_PROJECT_DBMSDataSet.Designer.cs">
+    <Compile Include="GUI\DATABASE_PROJECT_DBMSDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DATABASE_PROJECT_DBMSDataSet1.Designer.cs">
+    <Compile Include="GUI\DATABASE_PROJECT_DBMSDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DATABASE_PROJECT_DBMSDataSet2.Designer.cs">
+    <Compile Include="GUI\DATABASE_PROJECT_DBMSDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet2.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DATABASE_PROJECT_DBMSDataSet3.Designer.cs">
+    <Compile Include="GUI\DATABASE_PROJECT_DBMSDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet3.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DATABASE_PROJECT_DBMSDataSet4.Designer.cs">
+    <Compile Include="GUI\DATABASE_PROJECT_DBMSDataSet4.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet4.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DATABASE_PROJECT_DBMSDataSet51.Designer.cs">
+    <Compile Include="GUI\DATABASE_PROJECT_DBMSDataSet51.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet51.xsd</DependentUpon>
     </Compile>
-    <Compile Include="FCuaHang.cs">
+    <Compile Include="GUI\FCuaHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FCuaHang.Designer.cs">
+    <Compile Include="GUI\FCuaHang.Designer.cs">
       <DependentUpon>FCuaHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="FDoanhThu.cs">
+    <Compile Include="GUI\FDoanhThu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FDoanhThu.Designer.cs">
+    <Compile Include="GUI\FDoanhThu.Designer.cs">
       <DependentUpon>FDoanhThu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FHoaDon.cs">
+    <Compile Include="GUI\FHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FHoaDon.Designer.cs">
+    <Compile Include="GUI\FHoaDon.Designer.cs">
       <DependentUpon>FHoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="FKhachHang.cs">
+    <Compile Include="GUI\FKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FKhachHang.Designer.cs">
+    <Compile Include="GUI\FKhachHang.Designer.cs">
       <DependentUpon>FKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="FKhoHang.cs">
+    <Compile Include="GUI\FKhoHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FKhoHang.Designer.cs">
+    <Compile Include="GUI\FKhoHang.Designer.cs">
       <DependentUpon>FKhoHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="FLuong.cs">
+    <Compile Include="GUI\FLuong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FLuong.Designer.cs">
+    <Compile Include="GUI\FLuong.Designer.cs">
       <DependentUpon>FLuong.cs</DependentUpon>
     </Compile>
-    <Compile Include="FMain.cs">
+    <Compile Include="GUI\FMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FMain.Designer.cs">
+    <Compile Include="GUI\FMain.Designer.cs">
       <DependentUpon>FMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="FNhaCungCap.cs">
+    <Compile Include="GUI\FNhaCungCap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FNhaCungCap.Designer.cs">
+    <Compile Include="GUI\FNhaCungCap.Designer.cs">
       <DependentUpon>FNhaCungCap.cs</DependentUpon>
     </Compile>
-    <Compile Include="FNhanVien.cs">
+    <Compile Include="GUI\FNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FNhanVien.Designer.cs">
+    <Compile Include="GUI\FNhanVien.Designer.cs">
       <DependentUpon>FNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="FSanPham.cs">
+    <Compile Include="GUI\FSanPham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FSanPham.Designer.cs">
+    <Compile Include="GUI\FSanPham.Designer.cs">
       <DependentUpon>FSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="LOGIN.cs">
+    <Compile Include="GUI\LOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LOGIN.Designer.cs">
+    <Compile Include="GUI\LOGIN.Designer.cs">
       <DependentUpon>LOGIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="GUI\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FCuaHang.resx">
+    <EmbeddedResource Include="GUI\FCuaHang.resx">
       <DependentUpon>FCuaHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FDoanhThu.resx">
+    <EmbeddedResource Include="GUI\FDoanhThu.resx">
       <DependentUpon>FDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FHoaDon.resx">
+    <EmbeddedResource Include="GUI\FHoaDon.resx">
       <DependentUpon>FHoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FKhachHang.resx">
+    <EmbeddedResource Include="GUI\FKhachHang.resx">
       <DependentUpon>FKhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FKhoHang.resx">
+    <EmbeddedResource Include="GUI\FKhoHang.resx">
       <DependentUpon>FKhoHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FLuong.resx">
+    <EmbeddedResource Include="GUI\FLuong.resx">
       <DependentUpon>FLuong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FMain.resx">
+    <EmbeddedResource Include="GUI\FMain.resx">
       <DependentUpon>FMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FNhaCungCap.resx">
+    <EmbeddedResource Include="GUI\FNhaCungCap.resx">
       <DependentUpon>FNhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FNhanVien.resx">
+    <EmbeddedResource Include="GUI\FNhanVien.resx">
       <DependentUpon>FNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FSanPham.resx">
+    <EmbeddedResource Include="GUI\FSanPham.resx">
       <DependentUpon>FSanPham.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LOGIN.resx">
+    <EmbeddedResource Include="GUI\LOGIN.resx">
       <DependentUpon>LOGIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -192,70 +192,70 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="DATABASE_PROJECT_DBMSDataSet.xsc">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet.xsc">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet.xsd">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DATABASE_PROJECT_DBMSDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet.xss">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet.xss">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet1.xsc">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet1.xsc">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet1.xsd">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DATABASE_PROJECT_DBMSDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet1.xss">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet1.xss">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet2.xsc">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet2.xsc">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet2.xsd">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet2.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DATABASE_PROJECT_DBMSDataSet2.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet2.xss">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet2.xss">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet3.xsc">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet3.xsc">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet3.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet3.xsd">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet3.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DATABASE_PROJECT_DBMSDataSet3.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet3.xss">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet3.xss">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet3.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet4.xsc">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet4.xsc">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet4.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet4.xsd">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet4.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DATABASE_PROJECT_DBMSDataSet4.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet4.xss">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet4.xss">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet4.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet51.xsc">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet51.xsc">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet51.xsd</DependentUpon>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet51.xsd">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet51.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DATABASE_PROJECT_DBMSDataSet51.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DATABASE_PROJECT_DBMSDataSet51.xss">
+    <None Include="GUI\DATABASE_PROJECT_DBMSDataSet51.xss">
       <DependentUpon>DATABASE_PROJECT_DBMSDataSet51.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
@@ -269,7 +269,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="GUI\App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -281,4 +281,5 @@
     <Compile Include="DAL\DbHelper.cs" />
     <Compile Include="DTO\ProductDto.cs" />
   </ItemGroup>
+  <ItemGroup />
 </Project>

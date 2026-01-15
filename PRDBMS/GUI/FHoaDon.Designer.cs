@@ -37,7 +37,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.khachHangBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.dATABASE_PROJECT_DBMSDataSet1 = new PRDBMS.DATABASE_PROJECT_DBMSDataSet1();
+            this.dATABASE_PROJECT_DBMSDataSet1 = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet1();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,7 +49,7 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.sanPhamBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dATABASE_PROJECT_DBMSDataSet3 = new PRDBMS.DATABASE_PROJECT_DBMSDataSet3();
+            this.dATABASE_PROJECT_DBMSDataSet3 = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet3();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.hoaDonBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.dATABASE_PROJECT_DBMSDataSet2 = new PRDBMS.DATABASE_PROJECT_DBMSDataSet2();
+            this.dATABASE_PROJECT_DBMSDataSet2 = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet2();
             this.button2 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -72,9 +72,9 @@
             this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.chiTietHoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.khachHangTableAdapter = new PRDBMS.DATABASE_PROJECT_DBMSDataSet1TableAdapters.KhachHangTableAdapter();
-            this.hoaDonTableAdapter = new PRDBMS.DATABASE_PROJECT_DBMSDataSet2TableAdapters.HoaDonTableAdapter();
-            this.sanPhamTableAdapter = new PRDBMS.DATABASE_PROJECT_DBMSDataSet3TableAdapters.SanPhamTableAdapter();
+            this.khachHangTableAdapter = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet1TableAdapters.KhachHangTableAdapter();
+            this.hoaDonTableAdapter = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet2TableAdapters.HoaDonTableAdapter();
+            this.sanPhamTableAdapter = new global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet3TableAdapters.SanPhamTableAdapter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -99,7 +99,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.viewDSSanPhamBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.viewDSKhachHangBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dATABASEPROJECTDBMSDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chiTietHoaDonBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -543,15 +543,15 @@
         private System.Windows.Forms.BindingSource chiTietHoaDonBindingSource;
         private System.Windows.Forms.BindingSource hoaDonBindingSource;
         private System.Windows.Forms.Button button4;
-        private DATABASE_PROJECT_DBMSDataSet1 dATABASE_PROJECT_DBMSDataSet1;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet1 dATABASE_PROJECT_DBMSDataSet1;
         private System.Windows.Forms.BindingSource khachHangBindingSource2;
-        private DATABASE_PROJECT_DBMSDataSet1TableAdapters.KhachHangTableAdapter khachHangTableAdapter;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet1TableAdapters.KhachHangTableAdapter khachHangTableAdapter;
         private System.Windows.Forms.BindingSource nhanVienBindingSource2;
-        private DATABASE_PROJECT_DBMSDataSet2 dATABASE_PROJECT_DBMSDataSet2;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet2 dATABASE_PROJECT_DBMSDataSet2;
         private System.Windows.Forms.BindingSource hoaDonBindingSource1;
-        private DATABASE_PROJECT_DBMSDataSet2TableAdapters.HoaDonTableAdapter hoaDonTableAdapter;
-        private DATABASE_PROJECT_DBMSDataSet3 dATABASE_PROJECT_DBMSDataSet3;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet2TableAdapters.HoaDonTableAdapter hoaDonTableAdapter;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet3 dATABASE_PROJECT_DBMSDataSet3;
         private System.Windows.Forms.BindingSource sanPhamBindingSource;
-        private DATABASE_PROJECT_DBMSDataSet3TableAdapters.SanPhamTableAdapter sanPhamTableAdapter;
+        private global::PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet3TableAdapters.SanPhamTableAdapter sanPhamTableAdapter;
     }
 }

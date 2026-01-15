@@ -37,22 +37,15 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.cuaHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.dATABASE_PROJECT_DBMSDataSet = new PRDBMS.DATABASE_PROJECT_DBMSDataSet();
-            this.cuaHangBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.cuaHangTableAdapter = new PRDBMS.DATABASE_PROJECT_DBMSDataSetTableAdapters.CuaHangTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cuaHangBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dATABASE_PROJECT_DBMSDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cuaHangBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -139,18 +132,12 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.DataSource = this.cuaHangBindingSource1;
-            this.comboBox1.DisplayMember = "MaCH";
+            // Data binding is configured at runtime in code-behind (LoadCuaHangCombo)
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(738, 15);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 16;
-            this.comboBox1.ValueMember = "MaCH";
-            // 
-            // cuaHangBindingSource
-            // 
-            this.cuaHangBindingSource.DataMember = "CuaHang";
             // 
             // label3
             // 
@@ -195,20 +182,6 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Tìm kiếm";
             // 
-            // dATABASE_PROJECT_DBMSDataSet
-            // 
-            this.dATABASE_PROJECT_DBMSDataSet.DataSetName = "DATABASE_PROJECT_DBMSDataSet";
-            this.dATABASE_PROJECT_DBMSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // cuaHangBindingSource1
-            // 
-            this.cuaHangBindingSource1.DataMember = "CuaHang";
-            this.cuaHangBindingSource1.DataSource = this.dATABASE_PROJECT_DBMSDataSet;
-            // 
-            // cuaHangTableAdapter
-            // 
-            this.cuaHangTableAdapter.ClearBeforeFill = true;
-            // 
             // FSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -225,10 +198,7 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cuaHangBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dATABASE_PROJECT_DBMSDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cuaHangBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -247,9 +217,5 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.BindingSource cuaHangBindingSource;
-        private DATABASE_PROJECT_DBMSDataSet dATABASE_PROJECT_DBMSDataSet;
-        private System.Windows.Forms.BindingSource cuaHangBindingSource1;
-        private DATABASE_PROJECT_DBMSDataSetTableAdapters.CuaHangTableAdapter cuaHangTableAdapter;
     }
 }

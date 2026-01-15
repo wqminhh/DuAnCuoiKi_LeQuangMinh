@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace PRDBMS {
+namespace PRDBMS.GUI {
     
     
     /// <summary>
@@ -700,7 +700,7 @@ namespace PRDBMS {
         }
     }
 }
-namespace PRDBMS.DATABASE_PROJECT_DBMSDataSet1TableAdapters {
+namespace PRDBMS.GUI.DATABASE_PROJECT_DBMSDataSet1TableAdapters {
     
     
     /// <summary>
@@ -840,8 +840,8 @@ namespace PRDBMS.DATABASE_PROJECT_DBMSDataSet1TableAdapters {
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[KhachHang] ([MaKH], [TenKH], [GioiTinh], [DiaChi], [SDT]) VALU" +
-                "ES (@MaKH, @TenKH, @GioiTinh, @DiaChi, @SDT);\r\nSELECT MaKH, TenKH, GioiTinh, Dia" +
-                "Chi, SDT FROM KhachHang WHERE (MaKH = @MaKH)";
+                "ES (@MaKH, @TenKH, @GioiTinh, @DiaChi, @SDT);\nSELECT MaKH, TenKH, GioiTinh, DiaC" +
+                "hi, SDT FROM KhachHang WHERE (MaKH = @MaKH)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MaKH", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MaKH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TenKH", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TenKH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
